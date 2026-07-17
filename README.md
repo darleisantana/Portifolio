@@ -81,6 +81,26 @@ npm run preview
 
 ---
 
+## 🌐 Publicar no GitHub Pages
+
+O projeto já está configurado com `homepage` no `package.json` e o script `deploy` (gh-pages).
+
+1. Confirme o campo `homepage` em `package.json`:
+   ```
+   https://darleisantana.github.io/Portifolio/
+   ```
+2. Na pasta `portfolio/`, rode:
+   ```bash
+   npm run deploy
+   ```
+   Isso gera a pasta `dist` e publica automaticamente na branch `gh-pages`.
+3. No GitHub: **Settings → Pages → Source** = branch `gh-pages` (pasta `/` root).
+4. Acesse: https://darleisantana.github.io/Portifolio/
+
+**Requisito:** Node.js 18+ (recomendado 20 ou 22 LTS).
+
+---
+
 ## 👨‍💻 Sobre mim
 
 Sou Tecnólogo em Análise e Desenvolvimento de Sistemas e atualmente curso pós-graduação com foco em Desenvolvimento de Aplicações Móveis e Games.
